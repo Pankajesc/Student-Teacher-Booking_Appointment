@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="approve" method="POST">
+        <button class="button2" type="approve">Approve Appointment</button>
+        <input type="hidden" name="appointment_id" value="1">
+        <input type="hidden" name="status" value="approved">
+        <input type="submit" value="Approve">
+    </form>
+    <form action="cancel" method="POST">
+        <button class="button2" type="cancel">Cancel Appointment</button>
+        <input type="hidden" name="appointment_id" value="1">
+        <input type="hidden" name="status" value="cancelled">
+        <input type="submit" value="Cancel">
+    </form>
+
+</body>
+</html>
+

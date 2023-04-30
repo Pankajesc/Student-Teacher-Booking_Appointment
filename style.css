@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px black;
+}
+
+/* .container{
+  height:100vh;
+  background-image: url(./backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} */
+
+.section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./backgroundimg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box{
+  width: 590px;
+  height: 530px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 30px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.button-box{
+  width: 600px;
+  text-align: center;
+  position: relative;
+  border-radius: 30px;
+}
+.toggle-btn:nth-of-type(1){
+  background: linear-gradient(to right,#ff105f,#ffad06);
+}
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  border-radius: 20px;
+}
+
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.check-box{
+  margin: 30px 10px 30px 0;
+}
+
+span{
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+
+#login{
+  left: 170px;
+}
+
+#register{
+  /* left: 450px; */
+  left: 730px;
+}
+/* input[type=text], input[type=password] {
+  width: 65%;
+  padding: 5px 5px;
+  margin: 5px 2px;
+  display: flex;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+} */
+
+/* .section{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: 100%;
+  margin: 280px
+}
+
+  
+.section  a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: blue;
+}
+
+.section  a:hover{
+  color: rgb(69, 72, 151);
+}
+
+.button{
+  background-color: #fff;
+  height: 70px;
+  width: 120px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.button a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.container1{
+  height:100vh;
+  background-image: url(./backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: 100%;
+  margin-top: 260px;
+}
+
+.admin  a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: blue;
+}
+
+.admin a:hover{
+  color: rgb(69, 72, 151);
+}
+
+.button1{
+  background-color: #fff;
+  height: 100px;
+  width: 170px;
+  border-radius: 50px;
+  margin: 10px;
+} 
+
+.button1 a{
+  font-size: 20px;
+  text-decoration: none;
+} */
+
+
+/*--Teacher section--*/
+.teacher{
+  height:100vh;
+  background-image: url(./pexels-junior-teixeira-2072060.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: 100%;
+  margin-top: 260px;
+}
+
+.home a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: blue;
+}
+
+.home a:hover{
+  color: rgb(69, 72, 151);
+}
+
+.button3{
+  background-color: #fff;
+  height: 100px;
+  width: 170px;
+  border-radius: 50px;
+  margin: 10px;
+} 
+
+.button3 a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/*--Student section--*/
+.container2{
+  height:100vh;
+  background-image: url(./backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.student-register{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: 100%;
+  margin-top: 260px;
+}
+
+.student-register a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: blue;
+}
+
+.student-register a:hover{
+  color: rgb(69, 72, 151);
+}
+
+.button2{
+  background-color: #fff;
+  height: 100px;
+  width: 180px;
+  border-radius: 50px;
+  margin: 10px;
+} 
+
+.button2 a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*--admin--*/
+.container1{
+  height:100vh;
+  background-image: url(./backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 4px;
+  cursor: pointer;
+  background-size: 100%;
+  margin-top: 260px;
+}
+
+.admin a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: blue;
+}
+
+.admin a:hover{
+  color: rgb(69, 72, 151);
+}
+
+.button1{
+  background-color: #fff;
+  height: 100px;
+  width: 180px;
+  border-radius: 50px;
+  margin: 10px;
+} 
+
+.button1 a{
+  font-size: 20px;
+  text-decoration: none;
+}
